@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+ 
+  <title>Mi aplicacion</title>
+
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" /> 
+        
+        
+
+
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js" type="text/javascript"></script>
+  <!-- <script src="phonegap.js" type="text/javascript"></script> -->
+ </head>
+
+ <body>
+ 
+ <!-- Principal -->
+ <div data-role="page" id="principal" >   
+  <div data-role="header">
+    <h1>Aplicacion 04</h1>
+  </div>
+<div data-role="main" class="ui-content">
+  <div data-role="controlgroup" data-trype="vertical" align="center">
+    <a href="#page2" class="ui-btn ui-icon-bars ui-btn-icon-top ui-shadow ">Intro</a>
+    <a href="#page3" class="ui-btn ui-icon-camera ui-btn-icon-top ui-shadow ">Imagenes</a>
+  </div>
+</div>
+  <div data-role="footer">
+    <h1>@Maria Fernanda</h1>
+  </div>
+ </div>  
+ <!-- Principal -->
+
+
+<!-- Page2 -->
+ <div data-role="page" id="page2" >   
+  <div data-role="header">
+    <h1>Aplicacion 04</h1>
+  </div>
+<div data-role="main" class="ui-content">
+ <div data-role="collapsible">
+ <h1> click</h1>
+    <p> Me llamo Fernanda y una de las cosas que mas me gustan es jugar y ver el futbol, tambien me gusta bailar, cantar, ver la tv, las matematicas, estar en el celular, y compartir momentos con mi familia.
+    <div align="right">
+  <img src="images/10341657_10202729147730093_1218494767705140888_n.jpg" width="321" height="238">
+  </div>
+   
+  </div>
+  
+  </div>
+
+  <div data-role="footer">
+    <h1>@Maria Fernanda</h1>
+  </div>
+ </div>  
+ <!-- Page2 -->
+ 
+ 
+ <!-- Page3 -->
+ <div data-role="page" id="page3" >   
+  <div data-role="header">
+    <h1>Aplicacion 04</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <div align="center">
+    <a href="#foto_uno" data-rel="popup" data-position-to="window"
+    data-transition="fade">
+    <img src="images/Fotos/uno.jpg" style="width:10%" >
+    </a>
+    <a href="#foto_dos" data-rel="popup" data-position-to="window"
+    data-transition="fade">
+    <img src="images/Fotos/dos.jpg" style="width:10%">
+    </a>
+    <a href="#foto_tres" data-rel="popup" data-position-to="window"
+    data-transition="fade">
+    <img src="images/Fotos/tres.jpg" style="width:10%">
+     <a href="#foto_cuatro" data-rel="popup" data-position-to="window"
+    data-transition="fade">
+    <img src="images/Fotos/cuatro.jpg" style="width:10%" >
+    </a>
+    </div>
+    <div data-role="popup" id="foto_uno" data-overlay-theme="b"
+    data-theme="b" data-corners="fatse">
+    <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"    >X</a>
+    <img src="images/Fotos/uno.jpg" style="max-height:300px">
+    </div>
+    
+    <div data-role="popup" id="foto_dos" data-overlay-theme="b"
+    data-theme="b" data-corners="fatse">
+    <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"    >X</a>
+    <img src="images/Fotos/dos.jpg" style="max-height:300px">
+    </div>
+    
+    
+    <div data-role="popup" id="foto_tres" data-overlay-theme="b"
+    data-theme="b" data-corners="fatse">
+    <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"    >X</a>
+    <img src="images/Fotos/tres.jpg" style="max-height:300px">
+    </div>
+    
+    
+    <div data-role="popup" id="foto_cuatro" data-overlay-theme="b"
+    data-theme="b" data-corners="fatse">
+    <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"    >X</a>
+    <img src="images/Fotos/cuatro.jpg" style="max-height:300px">
+    </div>
+    
+    
+    </div>
+
+  <div data-role="footer">
+    <h1>@Maria Fernanda</h1>
+  </div>
+ </div>  
+ <!-- Page3 -->
+ </body>
+</html> 
